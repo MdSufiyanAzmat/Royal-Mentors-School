@@ -62,9 +62,9 @@
 
       // ---------- TESTIMONIAL slider (parents) ----------
       const testimonials = [
-        { text: "My daughter joined Riverside in 6th grade, shy and unsure. Within a year she was on the debate team and loving school. The teachers truly care.", name: "Nadia Hassan", img: "https://images.pexels.com/users/avatars/1234567/testimonial-1.jpeg?auto=compress&cs=tinysrgb&w=60&h=60&dpr=2" },
-        { text: "The STEM program is outstanding. My son built a robot that got into city finals! Small classes mean individual attention.", name: "Carlos Mendez", img: "https://images.pexels.com/users/avatars/1234568/testimonial-2.jpeg?auto=compress&cs=tinysrgb&w=60&h=60&dpr=2" },
-        { text: "As an alum, I can say Riverside shaped my critical thinking. Now my kids go there – same warmth, but with amazing new facilities.", name: "Priya Sharma", img: "https://images.pexels.com/users/avatars/1234569/testimonial-3.jpeg?auto=compress&cs=tinysrgb&w=60&h=60&dpr=2" }
+        { text: "My daughter joined Royal Mentors in 6th grade, shy and unsure. Within a year she was on the debate team and loving school. The teachers truly care.", name: "Nadia Hassan", img: "principal.png" },
+        { text: "The computer lab program is wonderful. My child has learned typing, coding basics, and even made a small animation. Small classes ensure no one gets left behind.", name: "Sajid Anwar", img: "principal.png" },
+        { text: "As a parent, what I love most is how Riverside nurtures confidence and curiosity in every child. The teachers are warm, the new facilities are wonderful, and my kids look forward to school every single day.", name: "Sufiyan Azmat", img: "principal.png" }
       ];
 
       const sliderContainer = document.getElementById('testimonialSlider');
@@ -105,7 +105,7 @@
           const phone = document.getElementById('phone')?.value.trim() || '';
           const msg = document.getElementById('message')?.value.trim() || '';
           const feedback = document.getElementById('formFeedback');
-          const schoolPhone = '15125550173';  // school contact
+          const schoolPhone = '8877490641';  // school contact
           if (!name || !msg) {
             feedback.textContent = '⚠️ Please enter name and message.';
             return;
