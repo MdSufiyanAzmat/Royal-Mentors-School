@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Royal Mentors School · where minds grow</title>
+  <!-- Font Awesome 6 (free) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <div class="logo">
+        <i class="fas fa-graduation-cap"></i>
+        <span>Royal Mentors School</span>
+      </div>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#why-choose-us">Academics</a></li>
+        <li><a href="#testimonials">Stories</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburgerBtn" aria-label="menu">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero with slideshow -->
+  <section id="home" class="hero">
+    <div class="container">
+      <!-- slideshow container -->
+      <div class="slideshow-container">
+        <!-- slides -->
+        <div class="slide active-slide">
+          <img src="banner.png" alt="students in library">
+          <div class="slide-caption">
+            <!-- <h2>Curiosity meets excellence</h2>
+            <p>Pre‑K to 12 · Cambridge curriculum</p> -->
+          </div>
+        </div>
+        <div class="slide">
+          <img src="cover.png" alt="sports field">
+          <div class="slide-caption">
+            <!-- <h2>Champions on & off the field</h2>
+            <p>Athletics · Arts · Leadership</p> -->
+          </div>
+        </div>
+        <div class="slide">
+          <img src="image 2.png" alt="science lab">
+          <div class="slide-caption">
+            <!-- <h2>Future innovators</h2>
+            <p>STEM labs · Robotics · Research</p> -->
+          </div>
+        </div>
+         <div class="slide active-slide">
+          <img src="lab.png" alt="students in library">
+          <div class="slide-caption">
+            <!-- <h2>Curiosity meets excellence</h2>
+            <p>Pre‑K to 12 · Cambridge curriculum</p> -->
+          </div>
+        </div>
+         <div class="slide active-slide">
+          <img src="kids.png" alt="students in library">
+          <div class="slide-caption">
+            <!-- <h2>Curiosity meets excellence</h2>
+            <p>Pre‑K to 12 · Cambridge curriculum</p> -->
+          </div>
+        </div>
+        <!-- arrows -->
+        <a class="prev" id="prevSlide">&#10094;</a>
+        <a class="next" id="nextSlide">&#10095;</a>
+      </div>
+      <!-- dots for slideshow -->
+      <div class="dots-container" id="slideDots"></div>
+
+      <!-- extra tagline + CTA -->
+      <div class="hero-tagline">
+        <h1>Inspiring hearts, shaping futures</h1>
+        <p>Since 2020 · Small classes · dedicated mentors · holistic growth</p>
+        <a href="#contact" class="btn">Contact US</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About (Principal) -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="section-title">Meet the Principal</h2>
+      <div class="about-grid">
+        <div class="about-img">
+          <img src="principal.png" alt="Principal Marquez">
+        </div>
+        <div class="about-text">
+          <h3>XYZ</h3>
+          <p>XYZ has dedicated 25 years to child‑centered education. After leading innovative programs at Harvard’s Project Zero, she joined Riverside to foster a community where every child feels seen and challenged. She believes in "educating the whole child" — academically, socially, and emotionally.</p>
+          <p>“Our goal is to ignite a lifelong love of learning. We blend tradition with forward‑thinking practices, ensuring students leave as compassionate leaders.”</p>
+          <p class="signature">— XYZ</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Academics (services) -->
+ <section id="why-choose-us" class="why-choose-us">
+  <div class="container">
+    <h2 class="section-title">Why choose Royal Mentors?</h2>
+    <p class="section-sub">We don't just teach — we nurture, inspire, and prepare students for a lifetime of success.</p>
+
+    <div class="features-grid">
+      <!-- feature 1 -->
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="fas fa-chalkboard-teacher"></i>
+        </div>
+        <h3>Exceptional faculty</h3>
+        <p>Our teachers are mentors, holding advanced degrees and a genuine passion for guiding young minds. Small class sizes ensure individual attention.</p>
+      </div>
+
+      <!-- feature 2 -->
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="fas fa-leaf"></i>
+        </div>
+        <h3>Holistic development</h3>
+        <p>Academics, arts, sports, and life skills — we focus on the whole child. Leadership programs, clubs, and community service are part of daily life.</p>
+      </div>
+
+      <!-- feature 3 -->
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="fas fa-flask"></i>
+        </div>
+        <h3>Modern STEM labs</h3>
+        <p>Fully equipped science & robotics labs, coding clubs, and innovation challenges. Students learn by doing, creating, and experimenting.</p>
+      </div>
+
+      <!-- feature 4 -->
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="fas fa-hand-holding-heart"></i>
+        </div>
+        <h3>Safe & nurturing environment</h3>
+        <p>Secure campus, anti‑bullying programs, and dedicated counselors. We prioritize emotional well‑being as much as academic growth.</p>
+      </div>
+
+      <!-- feature 5 -->
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="fas fa-globe-asia"></i>
+        </div>
+        <h3>Global perspective</h3>
+        <p>Exchange programs, language immersion (Spanish & Mandarin), and a curriculum that encourages cultural awareness and global citizenship.</p>
+      </div>
+
+      <!-- feature 6 -->
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="fas fa-trophy"></i>
+        </div>
+        <h3>Proven track record</h3>
+        <p>Our alumni attend top universities and return as leaders. Consistently high board exam results and accolades in sports & arts.</p>
+      </div>
+    </div>
+
+    <!-- extra touch: floating stats / mini banner (optional, but adds smoothness) -->
+    <div class="stats-banner">
+      <div class="stat-item">
+        <span class="stat-number">5+</span>
+        <span class="stat-label">years of excellence</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">350</span>
+        <span class="stat-label">students</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">38:1</span>
+        <span class="stat-label">student‑teacher ratio</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">100%</span>
+        <span class="stat-label">pass rate</span>
+      </div>
+    </div>
+  </div>
+
+ 
+</section>
+
+  <!-- Testimonials (parents & alumni) -->
+  <section id="testimonials" class="testimonials">
+    <div class="container">
+      <h2 class="section-title">Parent & alumni voices</h2>
+      <p class="section-sub">Real stories from the Riverside community.</p>
+      <div class="testimonial-slider" id="testimonialSlider"></div>
+      <div class="dots" id="testiDots"></div>
+    </div>
+  </section>
+
+  <section id="gallery" class="gallery">
+  <div class="container">
+    <h2 class="section-title">Campus & activities</h2>
+    <p class="section-sub">A glimpse into daily life at Royal Mentors – where learning comes alive.</p>
+
+    <div class="gallery-grid">
+      <!-- gallery item 1 -->
+      <div class="gallery-item">
+        <img src="banner.png" alt="Students in library">
+        <div class="overlay">
+          <span>library · curiosity corner</span>
+        </div>
+      </div>
+
+      <!-- gallery item 2 -->
+      <div class="gallery-item">
+        <img src="cover.png" alt="Sports field">
+        <div class="overlay">
+          <span>sports · champions league</span>
+        </div>
+      </div>
+
+      <!-- gallery item 3 -->
+      <div class="gallery-item">
+        <img src="drawing.png" alt="Science lab">
+        <div class="overlay">
+          <span>STEM lab · young innovators</span>
+        </div>
+      </div>
+
+      <!-- gallery item 4 -->
+      <div class="gallery-item">
+        <img src="kids.png" alt="Art class">
+        <div class="overlay">
+          <span>art studio · creative minds</span>
+        </div>
+      </div>
+
+      <!-- gallery item 5 -->
+      <div class="gallery-item">
+        <img src="lab.png" alt="Music room">
+        <div class="overlay">
+          <span>music · rhythm & harmony</span>
+        </div>
+      </div>
+
+      <!-- gallery item 6 -->
+      <div class="gallery-item">
+        <img src="principal.png" alt="Outdoor learning">
+        <div class="overlay">
+          <span>outdoor classroom · nature</span>
+        </div>
+      </div>
+
+      <!-- gallery item 7 -->
+      <div class="gallery-item">
+        <img src="teacher.png" alt="Computer lab">
+        <div class="overlay">
+          <span>coding lab · future ready</span>
+        </div>
+      </div>
+
+      <!-- gallery item 8 -->
+      <div class="gallery-item">
+        <img src="image 2.png" alt="Annual day performance">
+        <div class="overlay">
+          <span>annual day · star performers</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- optional lightbox modal (simple) -->
+    <div id="galleryModal" class="modal">
+      <span class="close-modal">&times;</span>
+      <img class="modal-content" id="modalImage" src="" alt="enlarged view">
+      <div id="modalCaption"></div>
+      <a class="modal-prev">&#10094;</a>
+      <a class="modal-next">&#10095;</a>
+    </div>
+  </div>
+
+ 
+ 
+</section>
+
+  <!-- Contact & map -->
+ <section id="contact" class="contact">
+  <div class="container contact-container">
+    <div class="contact-info">
+      <h3>Get in touch</h3>
+      <!-- map marker unchanged -->
+      <div class="info-line"><i class="fas fa-map-marker-alt"></i> <span>Gagan Diwan Rd, near SOGRA COLLEGE, Sherpur, Bihar Sharif</span></div>
+      
+      <!-- PHONE: clickable tel link -->
+      <div class="info-line">
+        <i class="fas fa-phone-alt"></i>
+        <a href="tel:+918877490641" style="text-decoration: none; color: inherit;">88774 90641</a>
+      </div>
+      
+      <!-- EMAIL: clickable mailto link (fixed the email domain) -->
+      <div class="info-line">
+        <i class="fas fa-envelope"></i>
+        <a href="mailto:royalmentors@gmail.com" style="text-decoration: none; color: inherit;">royalmentors@gmail.com</a>
+      </div>
+      
+      <div class="info-line"><i class="fas fa-clock"></i> <span>Mon–Fri 8:30am – 4:30pm</span></div>
+    </div>
+
+    <div class="contact-form" id="contactForm">
+      <div class="input-group"><input type="text" id="name" placeholder="Parent/student full name" required></div>
+      <div class="input-group"><input type="tel" id="phone" placeholder="Phone (optional)"></div>
+      <div class="input-group"><textarea id="message" rows="4" placeholder="Interested in a tour or have a question?" required></textarea></div>
+      <button class="btn" id="submitContact">Send via WhatsApp</button>
+      <p id="formFeedback" style="color: #2f7a6b; font-weight: 600;"></p>
+    </div>
+  </div>
+
+  <!-- MAP (updated to Bihar Sharif location) -->
+  <div class="map-section container">
+    <div class="map-container">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14441.94364170615!2d85.5164056!3d25.1868309!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2f37b6997991d%3A0x466fe6797e0eeb26!2sROYAL%20MENTORS%20SCHOOL!5e0!3m2!1sen!2sin!4v1773431481702!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+
+  
+</section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="logo"><i class="fas fa-graduation-cap"></i> Royal Mentors School</div>
+          <p>Where every student discovers their potential. Pre‑K to 12, BiharSharif</p>
+          <div class="social">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Academics</a></li>
+            <li><a href="#testimonials">Stories</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Community</h4>
+          <p>School calendar, parent portal, and after‑care available.</p>
+        </div>
+      </div>
+      <div class="copyright">© 2026 Royal Mentors School – XYZ, Principal. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <!-- Fixed WhatsApp (inquiry) -->
+  <a href="https://wa.me/15125550173?text=Hello%20Riverside%20Academy%2C%20I%27d%20like%20to%20know%20more%20about%20admissions." class="whatsapp-float" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+
+  <!-- JavaScript -->
+ <script src="script.js"></script>
+</body>
+</html>
